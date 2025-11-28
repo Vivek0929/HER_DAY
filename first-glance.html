@@ -5,144 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first_glance</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Load Great Vibes (Cursive/Script Font for titles) -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <style>
+
+           .hero-title {
+            font-family: 'Great Vibes', cursive;
+        }
             #img-1{
             /* border: 2px solid blue; */
-            background-image: url('./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png');
+            background-image: url(' ');
             background-size: cover;
         }
-        #img-2{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
+        h2{
+            text-align: center;
         }
-        #img-3{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-4{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-5{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-6{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-7{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-8{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-9{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-10{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-11{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        #img-12{
-            /* border: 2px solid blue; */
-            background-image: url('');
-            background-size: cover;
-        }
-        .effect:hover{
-            cursor: pointer;
+        .main-div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
         }
     </style>
 
 </head>
-<body>
-       <!-- 1. Hero Section -->
-    <section class="min-h-screen flex items-center justify-center text-center relative overflow-hidden bg-pale-blue p-6 shadow-2xl">
-         
-          <!-- 3. Gallery -->
-        <section id="gallery" class="mb-20 opacity-0 animate-fadeInUp" style="animation-delay: 1.5s;">
-            <h2 class="text-5xl font-script text-royal-blue text-center mb-12 border-b-2 border-royal-blue inline-block pb-2 mx-auto block">First glance</h2>
-             <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-xl border border-pale-blue">
+<body class="bg-pale-blue">
+    <br>
+<div class="main-div bg-pale-blue">
+        <h2 class="text-5xl font-script text-royal-blue border-b-2 border-royal-blue inline-block mx-auto block">First_glance</h2>
+
+</div><br>
+
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-xl border border-pale-blue">
                 <p class="text-xl md:text-2xl leading-relaxed text-gray-700">
-                  The Day My Heart Chose You”
+                   The Day My Heart Chose You”
                   The first moment I saw you stepping into that bus .I didn’t know anything about you .
                   You were just a girl boarding a bus… but to me, that moment was the beginning of a new universe.
                   I still remember praying silently, wishing somehow you would sit near me, wishing just to be close. That first glance wasn’t just a memory — it is the moment that built my entire life’s purpose.
-                  From that day, my heart has belonged to you in a way words can never fully explain.             
+                  From that day, my heart has belonged to you in a way words can never fully explain.       
                 </p>
-            </div>
-            <div class="grid grid-cols-2 md:grid-cols-6 gap-4 md:gap-6">
+            </div><br><br>
+       <!-- 1. Hero Section -->
+    <section class="min-h-screen flex items-center justify-center text-center relative overflow-hidden bg-pale-blue p-6 shadow-2xl">
+         
+        
+
+         <!-- 3. Gallery -->
+        <section id="gallery" class="mb-20 opacity-0 animate-fadeInUp" style="animation-delay: 1.5s;">
+             <div class="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6">
                 <!-- Placeholder Images/Media -->
-                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-1">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-1" onclick="pagerenderin()">
+                    <img src="./images/first_glance/sc-4.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-2">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" onclick="falling_in_love()">
+                    <img src="./images/first_glance/sc-3.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
+                    
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-3">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" onclick="my_happiness()">
+                     <img src="./images/first_glance/sc-5.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
+
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-4">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect">
+                    <img src="./images/first_glance/sc-1.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-5">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+               
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" >
+                    <img src="./images/first_glance/sc-2.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-6">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect">
+                    <img src="./images/first_glance/sc-6.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
+
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-7">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                 <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" onclick="What_you_mean()">
+                    <img src="./images/first_glance/sc-7.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
+
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-8">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                 <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" onclick="What_you_mean()">
+                    <img src="./images/first_glance/sc-8.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
+
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-9">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" onclick="What_you_mean()">
+                    <img src="./images/first_glance/sc-9.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
+
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-10">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
+                <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" onclick="What_you_mean()">
+                    <img src="./images/first_glance/sc-10.jpg" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" >
+
                 </div>
-                  <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-11">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
-                </div>
-                 <div class="w-full h-40 md:h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition duration-300 effect" id="img-12">
-                    <!-- <img src="./Gemini_Generated_Image_9s3c5a9s3c5a9s3c.png" alt="The first glance" class="w-full  object-cover transition duration-500 hover:opacity-80" > -->
-                     <!-- <p class="font-script text-royal-blue text-center p-9 text-3xl" >first glance</p> -->
-                </div>
-              
+               
             </div>
         </section>
 
     </section>
+
+       
 
 
 
